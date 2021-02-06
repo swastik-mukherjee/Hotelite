@@ -38,6 +38,30 @@ p {
 .lead {
   font-size: 20px;
 }
+
+.btn {
+  display: inline-block;
+  color: rgb(241, 206, 10);
+  size: 18px;
+  background: black;
+  padding: 13px 20px;
+  border: none;
+  cursor: pointer;
+  text-emphasis: bold;
+}
+.btn-light {
+  background: #f7c08a;
+  color: #333;
+}
+.btn:hover {
+  background: #fff;
+  color: #333;
+}
+.bg-dark {
+  background: #333;
+  color: #fff;
+}
+
 #navbar {
   background: #333;
   color: #fff;
@@ -86,4 +110,44 @@ p {
 #showcase .showcase-content h1 {
   font-size: 60px;
   line-height: 1.2em;
+}
+
+#showcase .showcase-content p {
+  padding-bottom: 20px;
+  line-height: 1.7em;
+}
+
+#home-info {
+  height: 400px;
+}
+
+#home-info .info-img {
+  float: left;
+  width: 50%;
+  background: url("https://images.unsplash.com/photo-1520004745082-400d0949f387?ixid=MXwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHw%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=750&q=80")
+    no-repeat;
+  min-height: 100%;
+}
+#home-info .info-content {
+  float: right;
+  width: 50%;
+  height: 100%;
+  text-align: center;
+  padding: 50px 30px;
+  overflow: hidden;
+}
+
+/*Features*/
+.box {
+  float: left;
+  width: 33.3%;
+  padding: 50px;
+  text-align: center;
+  padding-bottom: 10px;
+}
+
+#main-footer {
+  text-align: center;
+  background: rgb(240, 235, 235);
+  padding: 10px;
 }
